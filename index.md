@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Storytime Reads
 layout: default
 ---
 
