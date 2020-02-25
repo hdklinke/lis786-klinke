@@ -26,7 +26,10 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       <nav id="main-navigation">
-        <a href="{{ '/' | relative_url }}" class="btn">List of Picture Books</a>
+        <a href="{{ '/' | relative_url }}" class="btn">View Full List</a>
+        <a href="{{ '/babies/' | relative_url }}" class="btn">Babies</a>
+        <a href="{{ '/toddlers/' | relative_url }}" class="btn">Toddlers</a>
+        <a href="{{ '/preschool/' | relative_url }}" class="btn">Preschoolers</a>
         <a href="{{ '/about/' | relative_url }}" class="btn">About</a>
       </nav>
     </header>
