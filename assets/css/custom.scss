@@ -5,6 +5,8 @@
   background-color: transparent;
   background-image: url(/assets/images/pencils.jpg);
   background-position: center right;
+  height: 30vh;
+  display: block;
 
   .project-name {
     font-size: 5rem;
@@ -16,6 +18,11 @@
   }
 
 }
+
+body {
+  color: rgba(255,255,255,1.0);
+}
+
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: rgba(255,116,0, 1.0);
