@@ -5,22 +5,26 @@
   background-color: transparent;
   background-image: url({{ '/assets/images/pencils.jpg' | relative_url }});
   background-position: center right;
-  height: 30vh;
+  height: auto;
   display: block;
-
-  .project-name {
-    font-size: 5rem;
-  }
-
-  .btn {
-    background-color: rgba(255,255,255,0.8);
-    color: rgba(255,72,72,1.0);
-  }
 
 }
 
+  .project-name {
+    font-size: 5rem;
+    padding-top: 1%;
+    padding-bottom: inherit;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+
+.navbar {
+  color: rgba(255,116,0,1.0);
+}
+
 body {
-  color: rgba(255,255,255,1.0);
+  background-color: rgba(255,255,255,1.0);
 }
 
 
