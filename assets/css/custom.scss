@@ -31,3 +31,29 @@ body {
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
   color: rgba(255,116,0, 1.0);
 }
+
+.content-right {
+  @media all and (min-width: 960px) {
+    width: 66%;
+    float: right;
+    padding-left: 35px;
+  }
+  }
+
+  .img-left {
+    @media all and (min-width: 960px) {
+      width: 33%;
+      float: left;
+    }
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
