@@ -1,7 +1,7 @@
 ---
 title: Books for Preschoolers
 layout: default
-permalink: /preschool/
+permalink: /preschoolers/
 ---
 ### Here are books for preschoolers!
 
