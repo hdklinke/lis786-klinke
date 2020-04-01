@@ -28,8 +28,39 @@ body {
 }
 
 
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+.main-content h1 {
   color: rgba(255,116,0, 1.0);
+  font-size: 2em;
+}
+
+.main-content h2 {
+  color: rgba(255,116,0, 1.0);
+  font-size: 1.5em;
+}
+
+.main-content h3 {
+  color: rgba(255,116,0, 1.0);
+  font-size: 1.17em;
+}
+
+.main-content h4 {
+  color: rgba(255,116,0, 1.0);
+  font-size: 1em;
+}
+
+.main-content h5 {
+  color: rgba(255,116,0, 1.0);
+  font-size: .83em;
+}
+
+.main-content h6 {
+  color: rgba(255,116,0, 1.0);
+  font-size: .67em;
+}
+
+.page-title {
+  font-size: 2em;
+  color: rgba(255,255,255, 1.0);
 }
 
 .content-right {
