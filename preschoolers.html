@@ -13,7 +13,7 @@ permalink: /preschoolers/
   <p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
 </div>
 <div class="img-left">
-  <img src="{{ book.image }}" alt="Cover image for {{ book.title }}">
+  <img src="{{ book.image | relative_url }}" alt="Cover image for {{ book.title }}">
 </div>
 <div class="clearfix"></div>
 
