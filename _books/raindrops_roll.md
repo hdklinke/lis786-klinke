@@ -4,6 +4,7 @@ source: https://www.simonandschuster.com/books/Raindrops-Roll/April-Pulley-Sayre
 categories: Toddlers Preschoolers
 image: /assets/images/raindrops-roll.jpg
 permalink: /raindrops-roll/
+layout: book-page
 ---
 Discover the wonder of water in this refreshingly fun and fascinating exploration of rain, raindrops, and the water cycle from the creator of *Rah, Rah, Radishes!* and *Go, Go Grapes!*
 

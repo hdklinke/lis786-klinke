@@ -4,6 +4,7 @@ source: https://www.penguinrandomhouse.com/books/246702/hoot-owl-master-of-disgu
 categories: Preschoolers
 image: /assets/images/hoot-owl.jpg
 permalink: /hoot-owl/
+layout: book-page
 ---
 Watch out! Hoot Owl is hungry in an offbeat story with deadpan humor and bold, striking illustrations.
 

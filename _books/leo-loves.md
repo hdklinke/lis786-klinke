@@ -4,6 +4,7 @@ source: https://www.penguinrandomhouse.com/books/236711/leo-loves-baby-time-by-a
 categories: Babies Toddlers
 image: /assets/images/leo.jpg
 permalink: /leo/
+layout: book-page
 ---
 This bright, cheerful look at a day in the life of a child of color will bring smiles to faces and laughs to little voices!
 

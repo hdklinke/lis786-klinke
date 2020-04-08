@@ -1,0 +1,15 @@
+---
+title: Books for Babies
+layout: default
+permalink: /babies/
+---
+<h2> Here are books for babies!</h2>
+{% for book in site.books %}
+{% if book.categories contains 'Babies' %}
+
+<h3>{{ book.title }}</h3>
+<p>{{ book.content }}</p>
+<p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
+
+{% endif %}
+{% endfor %}

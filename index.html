@@ -3,14 +3,12 @@ title: Storytime Reads
 layout: default
 ---
 
-<h1>Great picture books to read aloud with kids 0-5 years old!</h1>
-
-<div class="card" style="width: 18rem">
-  <img class="card-img-top" src="{{ '/assets/images/kiss.jpg' | relative_url }}" alt="Cover image of A Kiss Means I Love You">
-  <div class="card-body">
-    <h5 class="card-title"><a href="{{ '/kiss/' | relative_url }}"> A Kiss Means I Love You </a></h5>
-    <h6 class="card-subtitle mb-2 text-muted">Author: Kathryn Madeline Allen, Photographs: Eric Futran</h6>
-    <p class="card-text"> Color photographs of children expressing different emotions and enacting certain situations introduce the idea of “reading” body language to the youngest children.</p>
-    <a href="https://www.kirkusreviews.com/book-reviews/kathryn-madeline-allen/kiss-means-i-love-you/" class="card-link">Source</a>
+<h2>Great picture books to read aloud with kids 0-5 years old!</h2>
+{% for book in site.books %}
+<div class="content-right">
+  <h3>{{ book.title }}</h3>
+  <p>{{ book.content | truncatewords: 30, "..." }}</p>
+  <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
   </div>
-</div>
+  <div class="clearfix"></div>
+{% endfor %}

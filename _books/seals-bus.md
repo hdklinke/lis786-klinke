@@ -4,6 +4,7 @@ source: https://us.macmillan.com/books/9780805072631
 categories: Toddlers Preschoolers
 image: /assets/images/seals.jpg
 permalink: /seals/
+layout: book-page
 ---
 This hilarious new version of the beloved children's song "The Wheels on the Bus" will have young readers errping and roaring and honking along.
 

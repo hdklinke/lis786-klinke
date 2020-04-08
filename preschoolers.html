@@ -1,0 +1,15 @@
+---
+title: Books for Preschoolers
+layout: default
+permalink: /preschoolers/
+---
+<h1> Here are books for preschoolers!</h1>
+{% for book in site.books %}
+{% if book.categories contains 'Preschoolers' %}
+
+<h2>{{ book.title }}</h2>
+<p>{{ book.content }}</p>
+<p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
+
+{% endif %}
+{% endfor %}
