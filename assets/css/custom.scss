@@ -116,6 +116,15 @@ body {
     height: auto;
   }
 
+  .show-link {
+    a:link {
+      color: rgba(255,116,0,1.0);
+    }
+    a:visited{
+      color: rgba(255,116,0,1.0);
+    }
+  }
+
   .clearfix::after {
     content: "";
     clear: both;
