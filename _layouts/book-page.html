@@ -7,6 +7,6 @@ layout: default
   <p><b>Try this book for: {{ page.categories }}</b></p>
 </div>
 <div class="img-left-pageview">
-  <img src="{{ page.image }}" alt="Cover image for {{ page.title }}">
+  <img src="{{ page.image | relative_url }}" alt="Cover image for {{ page.title }}">
 </div>
 <div class="clearfix"></div>
