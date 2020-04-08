@@ -2,7 +2,7 @@
 title: One Family
 source: https://us.macmillan.com/books/9780374300036
 categories: Toddlers Preschoolers
-image: /assets/images/one=family.jpg
+image: /assets/images/one-family.jpg
 permalink: /one-family/
 layout: book-page
 ---

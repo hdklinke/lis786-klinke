@@ -7,9 +7,15 @@ permalink: /preschoolers/
 {% for book in site.books %}
 {% if book.categories contains 'Preschoolers' %}
 
-<h2>{{ book.title }}</h2>
-<p>{{ book.content }}</p>
-<p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
+<div class="content-right">
+  <h3>{{ book.title }}</h3>
+  <p>{{ book.content }}</p>
+  <p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
+</div>
+<div class="img-left">
+  <img src="{{ book.image }}" alt="Cover image for {{ book.title }}">
+</div>
+<div class="clearfix"></div>
 
 {% endif %}
 {% endfor %}

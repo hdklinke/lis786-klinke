@@ -16,6 +16,9 @@
     padding-bottom: inherit;
     padding-left: inherit;
     padding-right: inherit;
+    a:visited {
+      color: rgba(255,255,255, 1.0);
+    }
   }
 
 
@@ -63,7 +66,7 @@ body {
   color: rgba(255,255,255, 1.0);
 }
 
-.content-right {
+.content-right-pageview {
   @media all and (min-width: 960px) {
     width: 66%;
     float: right;
@@ -71,10 +74,20 @@ body {
   }
   }
 
+  .content-right {
+    @media all and (min-width: 960px) {
+      width: 66%;
+      float: right;
+      padding-left: 35px;
+      padding-top: 2em;
+    }
+    }
+
   .img-left {
     @media all and (min-width: 960px) {
       width: 33%;
       float: left;
+      padding-top: 2em;
     }
   }
 

@@ -10,5 +10,8 @@ layout: default
   <p>{{ book.content | truncatewords: 30, "..." }}</p>
   <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
   </div>
+  <div class="img-left">
+    <img src="{{ book.image }}" alt="Cover image for {{ book.title }}">
+  </div>
   <div class="clearfix"></div>
 {% endfor %}
