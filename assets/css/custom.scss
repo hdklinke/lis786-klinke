@@ -71,6 +71,12 @@ body {
     width: 66%;
     float: right;
     padding-left: 35px;
+    a:link {
+      color: inherit;
+    }
+    a:visited {
+      color: inherit;
+    }
   }
   }
 
@@ -80,6 +86,12 @@ body {
       float: right;
       padding-left: 35px;
       padding-top: 2em;
+      a:link {
+        color: inherit;
+      }
+      a:visited {
+        color: inherit;
+      }
     }
     }
 

@@ -6,7 +6,7 @@ layout: default
 <h2>Great picture books to read aloud with kids 0-5 years old!</h2>
 {% for book in site.books %}
 <div class="content-right">
-  <h3>{{ book.title }}</h3>
+  <h3><a href="{{ book.url | relative_url }}" alt="View full book description">{{ book.title }}</a></h3>
   <p>{{ book.content | truncatewords: 30, "..." }}</p>
   <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
   </div>
