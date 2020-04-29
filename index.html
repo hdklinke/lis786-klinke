@@ -7,7 +7,7 @@ layout: default
 {% for book in site.books %}
 <div class="content-right">
   <h3><a href="{{ book.url | relative_url }}" alt="View full book description">{{ book.title }}</a></h3>
-  <p>{{ book.content | truncatewords: 30, "..." }}</p>
+  <p>{{ book.content | truncatewords: 30, "..." | strip_html }}</p>
   <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
   </div>
   <div class="img-left">
