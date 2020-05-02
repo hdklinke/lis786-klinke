@@ -8,7 +8,7 @@ permalink: /tag-rhythm-rhyme/
 {% if book.tags contains 'rhythm-rhyme' %}
 <div class="content-right">
   <h3><a href="{{ book.url | relative_url }}" alt="View full book description">{{ book.title }}</a></h3>
-  <p>{{ book.content |  truncatewords: 30, "..." | strip_html }}</p>
+  <p>{{ book.content |  truncatewords: 50, "..." | strip_html }}</p>
   <p>Try this book for: {{ book.categories }}</p>
   <p>Source: <a href= "{{ book.source }}">Publisher's description</a></p>
 </div>
