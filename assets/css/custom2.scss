@@ -5,18 +5,17 @@
   background-color: transparent;
   background-image: url({{ '/assets/images/pencils.jpg' | relative_url }});
   height: auto;
+  padding-top: 1%;
+  justify-content: center;
 
 }
 
 .project-name {
   font-size: 5rem;
-  padding-top: 1%;
-  padding-bottom: inherit;
-  padding-left: inherit;
-  padding-right: inherit;
   a:visited {
     color: rgba(255,255,255, 1.0);
   }
+  height: auto;
 }
 
 .project-name {
@@ -111,13 +110,25 @@ body {
     }
   }
 
+
   img {
     max-width: 100%;
     height: auto;
   }
+
 
   .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
+
+div {
+  border-width: 2px;
+  border-color: red;
+  border-style: solid;
+}
+
+.navbar-expand-lg {
+  justify-content: space-between;
+}

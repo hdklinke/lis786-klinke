@@ -72,10 +72,10 @@ body {
     float: right;
     padding-left: 35px;
     a:link {
-      color: inherit;
+      color: rgba(255,116,0,1.0);
     }
     a:visited {
-      color: inherit;
+      color: rgba(255,116,0,1.0);
     }
   }
   }
@@ -87,10 +87,10 @@ body {
       padding-left: 35px;
       padding-top: 2em;
       a:link {
-        color: inherit;
+        color: rgba(255,116,0,1.0);
       }
       a:visited {
-        color: inherit;
+        color: rgba(255,116,0,1.0);
       }
     }
     }
@@ -114,15 +114,6 @@ body {
   img {
     max-width: 100%;
     height: auto;
-  }
-
-  .show-link {
-    a:link {
-      color: rgba(255,116,0,1.0);
-    }
-    a:visited {
-      color: rgba(255,116,0,1.0);
-    }
   }
 
   .card-content {
