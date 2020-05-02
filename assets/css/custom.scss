@@ -95,11 +95,16 @@ body {
     }
     }
 
+    .drop-shadow {
+        box-shadow: 10px 10px 5px;
+      }
+
   .img-left {
     @media all and (min-width: 960px) {
       width: 33%;
       float: left;
-      padding-top: 2em;
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
     }
   }
 
@@ -116,10 +121,6 @@ body {
     height: auto;
   }
 
-  .card-content {
-      border-width: 5px;
-      border-color: rgba(255,0,0, 1.0);
-    }
 
   .clearfix::after {
     content: "";
