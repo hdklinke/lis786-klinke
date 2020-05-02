@@ -5,6 +5,7 @@ categories: Preschoolers
 image: /assets/images/hoot-owl.jpg
 permalink: /hoot-owl/
 layout: book-page
+tags: animals funny
 ---
 Watch out! Hoot Owl is hungry in an offbeat story with deadpan humor and bold, striking illustrations.
 

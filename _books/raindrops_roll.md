@@ -5,6 +5,7 @@ categories: Toddlers Preschoolers
 image: /assets/images/raindrops-roll.jpg
 permalink: /raindrops-roll/
 layout: book-page
+tags: rhythm-rhyme
 ---
 Discover the wonder of water in this refreshingly fun and fascinating exploration of rain, raindrops, and the water cycle from the creator of *Rah, Rah, Radishes!* and *Go, Go Grapes!*
 

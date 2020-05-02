@@ -5,6 +5,7 @@ categories: Preschoolers
 image: /assets/images/good-idea.jpg
 permalink: /good-idea
 layout: book-page
+tags: animals slightly-scary funny
 ---
 *That Is Not a Good Idea!* is a hilarious, interactive picture book from bestselling author and illustrator Mo Willems, the creator of books like *Don't Let the Pigeon Drive the Bus*, the *Knuffle Bunny* series, the *Elephant and Piggie* series, *Goldilocks and the Three Dinosaurs*, and many other new classics.
 

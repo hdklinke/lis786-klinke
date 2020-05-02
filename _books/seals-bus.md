@@ -5,6 +5,7 @@ categories: Toddlers Preschoolers
 image: /assets/images/seals.jpg
 permalink: /seals/
 layout: book-page
+tags: rhythm-rhyme funny
 ---
 This hilarious new version of the beloved children's song "The Wheels on the Bus" will have young readers errping and roaring and honking along.
 
