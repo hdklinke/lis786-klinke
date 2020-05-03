@@ -1,5 +1,7 @@
 ---
 title: I Got the Rhythm
+author: Connie Schofield-Morrison
+illustrator: Frank Morrison
 source: https://www.bloomsbury.com/us/i-got-the-rhythm-9781619631786/
 categories: Toddlers Preschoolers
 image: /assets/images/rhythm.jpg

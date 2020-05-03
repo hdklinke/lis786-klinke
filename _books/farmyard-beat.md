@@ -1,5 +1,7 @@
 ---
 title: Farmyard Beat
+author: Lindsey Craig
+illustrator: Marc Brown
 source: https://www.penguinrandomhouse.com/books/33173/farmyard-beat-by-lindsey-craig-illustrated-by-marc-brown/
 categories: Babies Toddlers
 image: /assets/images/farmyard.jpg

@@ -1,5 +1,8 @@
 ---
 title: Raindrops Roll
+author: April Pulley Sayre
+illustrator:
+photographs: April Pulley Sayre
 source: https://www.simonandschuster.com/books/Raindrops-Roll/April-Pulley-Sayre/Weather-Walks/9781481420648
 categories: Toddlers Preschoolers
 image: /assets/images/raindrops-roll.jpg

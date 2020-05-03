@@ -1,5 +1,8 @@
 ---
 title: A Kiss Means I Love You
+author: Kathryn Madeline Allen
+illustrator:
+photographs: Eric Futran
 source: https://www.albertwhitman.com/book/a-kiss-means-i-love-you/
 categories: Babies Toddlers
 image: /assets/images/kiss.jpg

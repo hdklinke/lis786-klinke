@@ -2,12 +2,24 @@
 layout: default
 ---
 <h2>{{ page.title }}</h2>
-<div class="content-right-pageview">
-  <p>{{ page.content }}</p>
-  <p>Source: <a class="show-link" href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
-  <p><b>Try this book for: {{ page.categories }}</b></p>
-</div>
-<div class="img-left-pageview">
-  <img src="{{ page.image | relative_url }}" alt="Cover image for {{ page.title }}">
-</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-auto">
+      <img class="bookpage-image" src="{{ page.image | relative_url }}" alt="Cover image for {{ page.title }}">
+    </div>
+    <div class="col-lg">
+      <p>{{ page.content }}</p>
+      <p>Author: {{ page.author }}</p>
+      {% if page.illustrator %}
+      <p>Illustrator: {{ page.illustrator }}</p>
+      {% endif %}
+      {% if page.photographs %}
+      <p>Photographs: {{ page.photographs }}</p>
+      {% endif %}
+      <p>Try this book for: {{ page.categories }}</p>
+      <p>Source: <a class="show-link" href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
+
+    </div>
+  </div>
+  </div>
 <div class="clearfix"></div>

@@ -1,5 +1,7 @@
 ---
 title: Hoot Owl, Master of Disguise
+author: Sean Taylor
+illustrator: Jean Jullien
 source: https://www.penguinrandomhouse.com/books/246702/hoot-owl-master-of-disguise-by-sean-taylor/
 categories: Preschoolers
 image: /assets/images/hoot-owl.jpg

@@ -1,5 +1,7 @@
 ---
 title: The Seals on the Bus
+author: Lenny Hort
+illustrator: G. Brian Karas
 source: https://us.macmillan.com/books/9780805072631
 categories: Toddlers Preschoolers
 image: /assets/images/seals.jpg

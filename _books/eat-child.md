@@ -1,5 +1,7 @@
 ---
 title: I'd Really Like to Eat a Child
+author: Sylviane Donnio
+illustrator: Dorothée de Monfreid
 source: https://www.penguinrandomhouse.com/books/41964/id-really-like-to-eat-a-child-by-sylviane-donnio-illustrated-by-dorothee-de-monfreid/
 categories: Preschoolers
 image: /assets/images/eat-a-child.jpg

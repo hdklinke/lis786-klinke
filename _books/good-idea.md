@@ -1,5 +1,7 @@
 ---
 title: That is NOT a Good Idea
+author: Mo Willems
+illustrator: Mo Willems
 source: https://www.harpercollins.com/9780062203090/that-is-not-a-good-idea/
 categories: Preschoolers
 image: /assets/images/good-idea.jpg

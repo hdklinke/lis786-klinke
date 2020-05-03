@@ -1,5 +1,7 @@
 ---
 title: Leo Loves Baby Time
+author: Anna McQuinn
+illustrator: Ruth Hearson
 source: https://www.penguinrandomhouse.com/books/236711/leo-loves-baby-time-by-anna-mcquinn-author-ruth-hearson-illustrator/
 categories: Babies Toddlers
 image: /assets/images/leo.jpg

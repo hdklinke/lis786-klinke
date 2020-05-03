@@ -1,5 +1,7 @@
 ---
 title: One Family
+author: George Shannon
+illustrator: Blanca Gomez
 source: https://us.macmillan.com/books/9780374300036
 categories: Toddlers Preschoolers
 image: /assets/images/one-family.jpg

@@ -1,5 +1,7 @@
 ---
 title: Good Night, Baddies
+author: Deborah Underwood
+illustrator: Julie Kangas
 source: https://www.simonandschuster.com/books/Good-Night-Baddies/Deborah-Underwood/9781481409841
 categories: Preschoolers
 image: /assets/images/baddies.jpg
@@ -7,7 +9,6 @@ permalink: /baddies/
 layout: book-page
 tags: slightly-scary funny
 ---
-
 Get to know the softer side of your favorite fairy tale baddies as they return home from a full day of scheming to enjoy a yummy dinner together and help one another get ready for bed.
 
 *"Wolves, today was not so good.
