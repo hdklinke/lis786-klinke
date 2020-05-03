@@ -10,11 +10,11 @@ layout: default
   <div class="col-md-auto">
     <img class="teaser-image" src="{{ book.image | relative_url }}" alt="Cover image for {{ book.title }}">
   </div>
-<div class="col-md-auto teaser">
+    <div class="col-md-auto teaser">
   <h3><a href="{{ book.url | relative_url }}" alt="View full book description">{{ book.title }}</a></h3>
   <p>{{ book.content | truncatewords: 50, "..." | strip_html }}</p>
   <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
-  </div>
+    </div>
   </div>
   </div>
   <div class="clearfix"></div>
