@@ -25,11 +25,6 @@
     }
   }
 
-#navbarNav {
-  color: rgba(255,116,0,1.0);
-  font-size: 7rem
-}
-
 nav>div {
   justify-content: center;
 }
@@ -40,12 +35,16 @@ body {
 }
 
 .main-content {
-  padding: 2rem 3rem;
   text-align: justify;
+  margin: auto;
+
+  @media all and (max-width: 400px) {
+  padding: 8%;
+}
 }
 
 .main-content h1 {
-  color: rgba(255,116,0, 1.0);
+  color: rgba(255,255,255, 1.0);
   font-size: 2rem;
 }
 
@@ -59,21 +58,6 @@ body {
   font-size: 1.17rem;
 }
 
-.main-content h4 {
-  color: rgba(255,116,0, 1.0);
-  font-size: 1rem;
-}
-
-.main-content h5 {
-  color: rgba(255,116,0, 1.0);
-  font-size: .83rem;
-}
-
-.main-content h6 {
-  color: rgba(255,116,0, 1.0);
-  font-size: .67rem;
-}
-
 .page-title {
   font-size: 2rem;
   color: rgba(255,255,255, 1.0);
@@ -82,15 +66,11 @@ body {
 .teaser {
   @media all and (min-width: 960px) {
     width: 66%;
-    display: block;
     padding-left: 0.5rem;
-    padding-top: 1.5rem;
   }
 
   @media all and (max-width: 400px) {
     padding-left: none;
-    padding-top: 0.5rem;
-    padding-bottom: 2rem;
   }
 
   a:link {
@@ -104,8 +84,6 @@ body {
 .teaser-image {
   @media all and (min-width: 960px) {
       float: left;
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
       padding-left: 0.5rem;
       padding-right: 1.0rem;
     }
@@ -113,8 +91,6 @@ body {
     @media all and (max-width: 400px) {
       float: left;
       padding-left: none;
-      padding-top: none;
-      padding-bottom: 1.5rem;
     }
 
   }
@@ -141,23 +117,51 @@ img {
     height: auto;
   }
 
+#content .row {
+  box-shadow: 1px 1px 2px 3px rgba(195,198,199, 0.5);
+  margin-bottom: 0.5rem;
+
+  @media all and (max-width: 400px) {
+  min-width: 300px;
+  margin-left: 0rem;
+  }
+}
+
+.col-md-auto {
+  @media all and (min-width: 960px) {
+    max-width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  @media all and (max-width: 400px) {
+    min-width: 300px;
+    padding-top: 1.5rem;
+  }
+  }
+
+div.container-fluid {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+  }
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: rgba(14,138,51, 1.0);
+  font-size: 14px;
+}
+
+.site-footer {
+  a:link {
+    color: rgba(255,116,0,1.0);
+  }
+
+  a:visited {
+    color: rgba(255,116,0,1.0);
+  }
+}
+
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
   }
-
-.col-md-auto {
-    max-width: 50%;
-    @media all and (max-width: 959px) {
-      min-width: 300px;
-    }
-  }
-
-div.container-fluid {
-    padding-left: 0;
-  }
-
-.navbar .navbar-nav .nav-item .nav-link {
-  font-size: 16px;
-}
