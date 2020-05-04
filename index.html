@@ -3,8 +3,8 @@ title: Storytime Reads
 layout: default
 ---
 
-<h2 class="page-title">Great picture books to read aloud with kids 0-5 years old!</h2>
-<div class="container">
+<h2 class="page-title">Read these books aloud with kids ages 0-5</h2>
+<div class="container-fluid">
 {% assign sorted_books = site.books | sort: "title" %}
 {% for book in sorted_books %}
 <div class="row">
@@ -24,6 +24,6 @@ layout: default
   <p>Source: <a href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
     </div>
   </div>
-  </div>
   {% endfor %}
+  </div>
   <div class="clearfix"></div>

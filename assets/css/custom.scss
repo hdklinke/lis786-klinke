@@ -77,6 +77,13 @@ body {
     padding-left: 0.5em;
     padding-top: 1.5em;
   }
+
+  @media (max-width: 400px) {
+    padding-left: none;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+  }
+
   a:link {
   color: rgba(255,116,0,1.0);
 }
@@ -87,13 +94,20 @@ body {
 
 .teaser-image {
   @media all and (min-width: 960px) {
-      display: inline;
       float: left;
       padding-top: 1.5em;
       padding-bottom: 1.5em;
       padding-left: 0.5em;
       padding-right: 1.0em;
     }
+
+    @media (max-width: 400px) {
+      float: left;
+      padding-left: none;
+      padding-top: none;
+      padding-bottom: 1.5em;
+    }
+
   }
 
 .bookpage-image {
@@ -131,3 +145,11 @@ img {
 div.container {
     padding-left: 0;
   }
+
+
+.col-md-auto {
+  @media (max-width: 959px) {
+    min-width: 300px;
+  }
+
+}
