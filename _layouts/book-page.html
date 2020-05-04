@@ -8,17 +8,17 @@ layout: default
       <img class="bookpage-image" src="{{ page.image | relative_url }}" alt="Cover image for {{ page.title }}">
     </div>
     <div class="col-lg bookpage-content">
-      <p>{{ page.content }}</p>
-      <p>Author: {{ page.author }}</p>
+      <p><b>Author: {{ page.author }}</b></p>
       {% if page.illustrator %}
-      <p>Illustrator: {{ page.illustrator }}</p>
+      <p><b>Illustrator: {{ page.illustrator }}</b></p>
       {% endif %}
       {% if page.photographs %}
-      <p>Photographs: {{ page.photographs }}</p>
+      <p><b>Photographs: {{ page.photographs }}</b></p>
       {% endif %}
-      <p>Try this book for: {{ page.categories }}</p>
+      {% assign age = page.categories | split: ", " %}
+      <p><b>Try this book for: {{ age | join: " and " }}</b></p>
+      <p>{{ page.content }}</p>
       <p>Source: <a class="show-link" href="{{ book.source }}" target="_blank">Publisher's Description</a></p>
-
     </div>
   </div>
   </div>
