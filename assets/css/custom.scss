@@ -20,6 +20,10 @@
       color: rgba(255,255,255, 1.0);
     }
 
+    @media all and (max-width: 959px) {
+      font-size: 5rem;
+    }
+
     @media all and (max-width: 400px) {
       font-size: 4rem;
     }
@@ -100,6 +104,7 @@ body {
       display: inline;
       float: left;
       padding-top: 1.0rem;
+      padding-bottom: 1.0rem;
     }
   }
 
@@ -110,6 +115,10 @@ body {
     a:visited {
       color:rgba(255,116,0,1.0);
     }
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 2rem;
   }
 
 img {
@@ -118,12 +127,19 @@ img {
   }
 
 #content .row {
-  box-shadow: 1px 1px 2px 3px rgba(195,198,199, 0.5);
-  margin-bottom: 0.5rem;
+  @media all and (min-width: 960px) {
+    box-shadow: 1px 1px 2px 3px rgba(195,198,199, 0.5);
+    margin-bottom: 0.5rem;
+  }
+
+  @media all and (max-width: 959px) {
+    box-shadow: 1px 1px 2px 3px rgba(195,198,199, 0.5);
+    margin-bottom: 0.5rem;
+  }
 
   @media all and (max-width: 400px) {
-  min-width: 300px;
-  margin-left: 0rem;
+    min-width: 300px;
+    margin-left: 0rem;
   }
 }
 
@@ -134,15 +150,36 @@ img {
     padding-bottom: 3rem;
   }
 
+  @media all and (max-width: 959px){
+    max-width: 50%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   @media all and (max-width: 400px) {
     min-width: 300px;
     padding-top: 1.5rem;
+    padding-bottom: 0rem;
   }
   }
 
 div.container-fluid {
+    @media all and (min-width: 960px) {
     padding-top: 1.5rem;
     padding-left: 1rem;
+  }
+
+    @media all and (max-width: 959px){
+      padding-top: 1.5rem;
+      padding-left: 1rem;
+    }
+
+    @media all and (max-width: 400px) {
+    min-width: 300px;
+    margin-left: 0rem;
+    padding-left: 0rem;
+    padding-top: 0rem;
+    }
   }
 
 .navbar .navbar-nav .nav-item .nav-link {
