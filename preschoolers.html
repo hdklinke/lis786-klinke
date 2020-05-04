@@ -9,7 +9,7 @@ permalink: /preschoolers/
 {% if book.categories contains 'Preschoolers' %}
 <div class="container">
 <div class="row">
-  <div class="col-md-auto">
+  <div class="col-md-auto" role="img" aria-label="Cover image for the book {{ book.title }}">
     <img class="teaser-image" src="{{ book.image | relative_url }}" alt="Cover image for {{ book.title }}">
   </div>
     <div class="col-md-auto teaser">
