@@ -3,8 +3,9 @@ title: Books for Toddlers
 layout: default
 permalink: /toddlers/
 ---
-<h2> Here are books for toddlers!</h2>
-{% for book in site.books %}
+<h2>Books for Toddlers 2-3</h2>
+{% assign sorted_books = site.books | sort: "title" %}
+{% for book in sorted_books %}
 {% if book.categories contains 'Toddlers' %}
 <div class="container">
 <div class="row">

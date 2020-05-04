@@ -4,8 +4,9 @@ layout: default
 ---
 
 <h2 class="page-title">Great picture books to read aloud with kids 0-5 years old!</h2>
-{% for book in site.books %}
 <div class="container">
+{% assign sorted_books = site.books | sort: "title" %}
+{% for book in sorted_books %}
 <div class="row">
   <div class="col-md-auto">
     <img class="teaser-image" src="{{ book.image | relative_url }}" alt="Cover image for {{ book.title }}">
@@ -24,5 +25,5 @@ layout: default
     </div>
   </div>
   </div>
+  {% endfor %}
   <div class="clearfix"></div>
-{% endfor %}

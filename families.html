@@ -4,7 +4,8 @@ layout: default
 permalink: /tag-families/
 ---
 <h2>Families</h2>
-{% for book in site.books %}
+{% assign sorted_books = site.books | sort: "title" %}
+{% for book in sorted_books %}
 {% if book.tags contains 'families' %}
 <div class="container">
   <div class="row">
